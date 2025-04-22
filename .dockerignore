@@ -1,0 +1,14 @@
+# Ignorar a pasta do ambiente virtual
+venv/
+
+# Ignorar o arquivo .env
+.env
+
+# Ignorar arquivos do Git
+.git/
+
+# Ignorar arquivos temporários e de cache
+*.pyc
+__pycache__/
+*.log
+

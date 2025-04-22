@@ -15,9 +15,10 @@ response = requests.get(url)
 if response.status_code == 200:
     data = response.json()
     if data['media_type'] == 'image':
-        print(data['title'])
-        print(data['explanation'])
-
+        print(f'Data:{data["date"]}')
+        print(f'Título: {data["title"]}')
+        print(f'Descrição: {data["explanation"]}')
+        print(f'Link da Imagem:{data["url"]}')
         webbrowser.open(data['url'])
 else:
     print("Erro ao acessar a API da NASA.")

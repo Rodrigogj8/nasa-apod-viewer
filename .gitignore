@@ -1,2 +1,11 @@
+# Ignorar arquivos de configuração e ambiente
 .env
-__pycache__/
+
+# Ignorar a pasta do ambiente virtual
+venv/
+
+# Ignorar arquivos do Git
+.git/
+
+# Ignorar arquivos de log
+*.log
